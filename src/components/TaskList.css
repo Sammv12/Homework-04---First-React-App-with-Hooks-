@@ -1,0 +1,63 @@
+.noTask {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.noTask img {
+    width: 400px;
+}
+
+.container {
+    margin: 20px 80px;
+}
+.containertask{
+    margin-top: 10px;
+}
+
+.userinput input {
+    margin-left: 0 !important;
+}
+
+.taskItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #D3D3D3;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.listLabel {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 24.2px;
+    font-weight: 400;
+    
+}
+
+.Tlist input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+    
+}
+
+.Tlist {
+    display: flex;
+    flex-direction: column;
+}
+
+.trash {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    
+}
+
+.task-complete {
+    text-decoration: line-through;
+}
